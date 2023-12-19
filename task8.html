@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <fieldset>
+            <legend align="center"><h1>FORM</h1></legend>
+        <form>
+         <label for="uname">Username:</label>
+         <input type="text" id="uname" name="username" required/><br><br>
+         <label for="pwd">Password:</label>
+         <input type="password" id="pwd" name="pwd" maxlength="8"/><br><br>
+         <label for="mail">Email:</label>
+         <input type="email" id="mail" name="mail" required/><br><br>
+         <label for="num">Mobile Number:</label>
+         <input type="tel"  name="mobile no." id="num" pattern="[0-9]{10}"/><br><br>
+         <label for="dob">DOB:</label>
+         <input type="date" id="dob" name="DOB"/><br><br>
+         <label for="td">Date & time:</label>
+         <input type="datetime-local" name="todate" id="td"/><br><br>
+         <label for="">Upload your picture:</label>
+         <input type="file" id="file1" name="pic"><br><br>
+         <label for="rno">Roll no:</label>
+         <input type="number" id="rno" name="roll no" min="0" max="20"><br><br>
+         <input type="image" src="../imgs/hinanna.jpg" width="50" height="50" ><br><br>
+         <label for="gser">search in google:</label>
+         <input type="search" id="gser" name="gsearch" placeholder="search"><br><br>
+         <label for="ytpage">Open youtubepage:</label>
+         <input type="url" id="ytpage" name="youtubepage"><br><br>
+         <input type="hidden" id="sid" name="student id" value="2543"><br><br>
+         <input type="button" onclick="hii" value="click here"><br><br>
+         <button type="reset" value="reset">Reset</button><br><br>
+         <label for="tnow">Time now:</label>
+         <input type="time" id="tnow" name="time now"><br><br>
+         <label for="tmon">Month & year:</label>
+         <input type="month" id="tmon" name="month"><br><br>
+         <label for="tweek">B'day week:</label>
+         <input type="week" id="tweek" name="this week"><br><br>
+         <label for="vol">Volume:</label>
+         <input type="range" id="vol" name="volume" min="0" max="100"><br><br>
+         <label for="myclr">Colour:</label>
+         <input type="color" id="myclr" name="colour name"><br><br>
+         <p>Most liked food:</p>
+         <input type="radio" id="egg" name="food" value="egg">
+         <label for="egg">Egg</label><br>
+         <input type="radio" id="chicken" name="food" value="chicken">
+         <label for="chicken">Chicken</label><br>
+         <input type="radio" id="brn" name="food" value="biryani">
+         <label for="brn" >Biryani</label><br><br>
+         <input type="submit" value="send"><br><br>
+         <p>what are your favourite flowers:</p>
+         <input type="checkbox" id="ros" name="rose">
+         <label for="grn">rose</label><br><br>
+         <input type="checkbox" id="lly" name="lilly">
+         <label for="lly">lilly</label><br><br>
+         <input type="checkbox" id="jas" name="jasmine">
+         <label for="jas">jasmine</label><br><br>
+         <label for="phones">Trend</label>
+         <select id="phones" name="trend">
+            <option value="iphone">iphone</option>
+            <option value="one plus">one plus</option>
+            <option value="samsung">samsung</option>
+         </select><br><br>
+         <label for="city">cities:</label>
+         <input list="cities" id="city" name="ctyname"><br><br>
+         <datalist id="cities">
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Chennai">Chennai</option>
+         </datalist><br>
+         <textarea></textarea><br><br>
+         <input type="submit" >
+         
+       
+        </form>
+    </fieldset>
+        
+    </body>
+</html>
